@@ -1,85 +1,169 @@
-/* إعدادات عامة */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
+/* إعادة تعيين بعض القيم الأساسية */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #00b894;
-    padding: 40px;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 36px;
-}
-
-.pixel-button {
-    background-color: #00cec9;
-    border: none;
-    color: white;
-    padding: 14px 40px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-.pixel-button:hover {
-    background-color: #0984e3;
-    transform: translateY(-5px);
-}
-
-.pixel-button:active {
-    transform: translateY(2px);
-}
-
-.section {
-    background: white;
-    margin: 20px auto;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     padding: 20px;
-    border-radius: 12px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #00b894;
-    font-size: 28px;
+/* رأس الصفحة */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button.pixel-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.pixel-button:hover {
+    background-color: #45a049;
+}
+
+/* التنسيق الرئيسي للمحتوى */
+main {
+    margin-top: 20px;
+}
+
+/* تنسيق الأقسام */
+.section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
 }
 
 input, select, textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 textarea {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    resize: none;
+    resize: vertical;
 }
 
-/* تنسيق النتيجة */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 .result-text {
-    font-weight: bold;
-    color: #0984e3;
-    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #4CAF50;
+}
+
+/* التصميم المستجيب (Responsive Design) */
+
+/* للشاشات الكبيرة */
+@media (min-width: 768px) {
+    .section {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button.pixel-button {
+        font-size: 1.2rem;
+    }
+
+    label, input, select, textarea {
+        font-size: 1.1rem;
+    }
+}
+
+/* للأجهزة اللوحية والهواتف المتوسطة (عرض أقل من 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button.pixel-button {
+        font-size: 1.1rem;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    label, input, select, textarea {
+        font-size: 1rem;
+    }
+
+    .result-text {
+        font-size: 1rem;
+    }
+}
+
+/* للهواتف الصغيرة (عرض أقل من 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button.pixel-button {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    label, input, select, textarea {
+        font-size: 0.9rem;
+    }
+
+    .result-text {
+        font-size: 1rem;
+    }
 }
 
 footer {
-    background-color: #2d3436;
-    padding: 10px;
-    color: white;
     text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
 }
