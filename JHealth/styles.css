@@ -1,0 +1,85 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00b894;
+    padding: 40px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.pixel-button {
+    background-color: #00cec9;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.pixel-button:hover {
+    background-color: #0984e3;
+    transform: translateY(-5px);
+}
+
+.pixel-button:active {
+    transform: translateY(2px);
+}
+
+.section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #00b894;
+    font-size: 28px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    resize: none;
+}
+
+/* تنسيق النتيجة */
+.result-text {
+    font-weight: bold;
+    color: #0984e3;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #2d3436;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
