@@ -13,7 +13,7 @@ Welcome to the **Health & Fitness Website**! This is a comprehensive web platfor
 ### 📦 **Installation Instructions:**
 
 1. Download the project files from **GitHub**:
-   - Click on [this link](https://github.com/your-username/health-and-fitness-website) to download the project.
+   - Click on [this link](https://github.com/TheRealJ2D/JHealth) to download the project.
 
 2. **Running the Website:**
    - Open the files with your preferred browser, like Chrome or Firefox.
@@ -54,7 +54,7 @@ If you have new ideas or improvements for the site, feel free to contribute by c
 ---
 
 ### 🏅 **Project Link:**
-- [GitHub Project Link](https://github.com/your-username/health-and-fitness-website)
+- [GitHub Project Link](https://github.com/TheRealJ2D/JHealth)
 
 ---
 
